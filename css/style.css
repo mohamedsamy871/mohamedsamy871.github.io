@@ -1,0 +1,65 @@
+.contact-section{
+    background-image: url('https://hasafa.sa/wp-content/uploads/2021/08/drafting-contracts.jpg');
+    background-size: cover;
+    padding: 70px 10px 105px;
+}
+.contact-section .contact-info{
+    border:1px solid #474d57;
+    border-radius: 5px;
+    background-color: rgba(12,23,39,0.7);
+    color:#f2f2f2;
+    padding: 47px 50px 94px;
+}
+.contact-section .contact-info h1{
+    font-size: 2.6rem;
+    font-weight: normal;
+}
+.contact-section .contact-info ul li svg{
+    color: #5092ad;
+    margin-right: 5px;
+}
+.contact-section .contact-info .address-paragraph{
+    margin-bottom: 0;
+}
+.contact-section .contact-info .address-section a{
+    margin-bottom: 22px;
+    display: block;
+    color: #5092ad;
+    font-weight: 500;
+}
+.contact-section .contact-info .address-section a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-section .contact-form{
+    background-color: #f7f9fa;
+    background-size: cover;
+    padding: 53px 35px 60px;
+    border-radius: 5px;
+
+}
+.contact-section .contact-form .form-control{
+    padding: 9px 25px;
+    color:#777;
+}
+.contact-section .contact-form .contact-button{
+    background-color: #034f6e;
+    border-radius: 25px;
+    color:#fff;
+    padding:13px 50px;
+    text-align: center;
+    font-weight: 500;
+}
