@@ -1,0 +1,123 @@
+.selected-item{
+    margin-top: 20px;
+    display: none   ;
+}
+.selected-item .card-title{
+    color: #000 !important;;
+}
+.selected-item .card-text{
+    color: var(--main-color)!important;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+@media (max-width:991px){
+    .selected-item .text-part{
+        padding: 16px 58px;
+    }
+}
+.new-arrivals-page-content .carousel-part{
+    margin-top: var(--section-margin);
+    margin-bottom: var(--section-margin);
+}
+.card{
+    border-radius: 24px;
+    border-color: var(--main-color);
+    max-width: 84%;
+    margin: auto;
+    padding:18px 0;
+    transition: all 0.2s ease-in-out;
+}
+.new-arrivals-page-content .carousel-part .card:hover{
+    background-color: var(--main-color);
+}
+.new-arrivals-page-content .carousel-part .card img{
+    border-radius: 24px;
+}
+#owl-offers .text-part{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.new-arrivals-page-content .text-part .card-text{
+    color: #777;
+    font-size: 14px;
+}
+.new-arrivals-page-content .text-part .card-title{
+    color:var(--main-color);
+}
+/*owl-categories settings*/
+.new-arrivals-page-content .carousel-part .owl-carousel .owl-dots.disabled,.carousel-part .owl-carousel .owl-nav.disabled{
+    display: block!important;
+
+}
+.new-arrivals-page-content .carousel-part .owl-nav .owl-next{
+    font-size: 75px!important;
+    color: var(--main-color)!important;
+    position: absolute!important;
+    top: 26%;
+    left: -65px;
+    transform: rotateY(180deg); 
+}
+.new-arrivals-page-content .carousel-part .owl-nav .owl-prev{
+    font-size: 75px!important;
+    color: var(--main-color)!important;
+    position: absolute!important;
+    top: 26%;
+    right: -28px;
+    transform: rotateY(180deg);
+}
+/*============================================carousel part =========End=============================================================*/
+
+/*************===========================================Discover Section===========================Start=====================================================*/
+.new-arrivals-page-content .discover{
+    background-color: var(--main-color);
+    padding: 50px 0 30px;
+}
+.new-arrivals-page-content .discover h2{
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.new-arrivals-page-content .discover .row .wrapper{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 17px;
+    margin-bottom: 15px;
+}
+.new-arrivals-page-content .discover .row .wrapper img{
+    border-radius: 20px;
+}
+.new-arrivals-page-content .discover .row .wrapper .text-container h2{
+    text-align: center;
+    margin: 15px 0;
+    white-space: nowrap;
+    color:#000;
+}
+@media (max-width:1200px){
+    .new-arrivals-page-content .discover .row .wrapper .text-container h2 {
+        font-size: 1rem !important;
+        white-space: normal;
+    }
+}
+.new-arrivals-page-content .discover .row .wrapper .text-container a{
+    color: var(--main-color);
+    text-align: center;
+    display: block;
+    font-size: 1.1rem;
+    font-weight:200;
+    text-transform: capitalize;
+}
+.new-arrivals-page-content .discover .load-more{
+    background-color: #fff;
+    color:#000;
+}
+.new-arrivals-page-content .discover .load-more svg{
+    color: var(--main-color);
+}
+/*************===========================================Discover Section===========================End=====================================================*/
+.find-us-section{
+    padding-top: 0!important;
+}
+.subscribe{
+    padding-top: 0!important;
+}

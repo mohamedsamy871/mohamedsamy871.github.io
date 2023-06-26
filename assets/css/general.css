@@ -1,0 +1,186 @@
+/*#region Variables*/
+/*================================================Variables=Start===================================================*/
+:root {
+    /*=============Color=Variables============*/
+    --main-color: #cf0508;
+    --text-main-color:#d70126;
+    --small-text-colot:#d80126;
+    --white-color: #cdcdcd;
+    --secondary-color:#444444;
+    --dark-color: #202227;
+    /*=============Size=Variables============*/
+    --head-nav:1.2rem; /*i used it */
+    --head-large: 3.5rem; /*i used it */
+    --head-medium: 1.2rem;/*i used it */
+    --parag-size: 1.2rem;/*i used it */
+    --parag-footer: 0.9rem;/*i used it */
+    /*==========spacing=============*/
+    --page-title-spacer: 30px;
+    --section-margin: 30px;
+    --section-padding: 30px;
+    --parag-margin:25px;
+}
+/*==============================================Variables=End=======================================================*/
+/*#endregion*/
+/*==========================================================Fonts=Start==========================================================*/
+@font-face {
+    font-family: 'amsterdam';
+    src: url('../../assets/fonts/amsterdam-variation-2');
+}
+@font-face {
+    font-family: 'amsterdam3';
+    src: url('../../assets/fonts/amsterdam-variation-3');
+}
+@font-face {
+    font-family: 'avefedan';
+    src: url('../../assets/fonts/AveFedan_PERSONAL_USE');
+}
+@font-face {
+    font-family: 'Commercial';
+    src: url('../../assets/fonts/Commercial_Script_BT');
+}
+@font-face{
+    font-family:'bebas-bold' ;
+    src: url('../../assets/fonts/BebasNeuePro-Bold.ttf');
+}
+@font-face{
+    font-family:'bebas-book' ;
+    src: url('../../assets/fonts/BebasNeuePro-Book.ttf');
+}
+@font-face{
+    font-family:'bebas-light' ;
+    src: url('../../assets/fonts/BebasNeuePro-Light.ttf');
+}
+@font-face{
+    font-family:'bebas-middle' ;
+    src: url('../../assets/fonts/BebasNeuePro-Middle.ttf');
+}
+@font-face{
+    font-family:'bebas-regular' ;
+    src: url('../../assets/fonts/BebasNeuePro-Regular.ttf');
+}
+@font-face{
+    font-family:'bebas-semibold' ;
+    src: url('../../assets/fonts/BebasNeuePro-SemiExpBold.ttf');
+}
+/*===========================================================Fonts End========================================================*/
+/*==================================================================================================================*/
+/*#region Global Settings*/
+/*================================================Global Settings=Start=======================================================*/
+* {
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.nav-container{
+    max-width: 1516px;
+    margin: auto;
+}
+section{
+    margin-top:var(--section-margin);
+    padding-top:var(--section-padding);
+}
+.heading-large{ /*i used it . please dont modify*/
+    font-size:var(--head-large);
+    color:var(--main-color);
+    font-weight:500;
+    text-transform:capitalize;
+}
+.heading-medium {/*i used it in contact page text. please dont modify*/
+    font-size: var(--head-medium);
+    color: #000;
+    font-weight:200;
+    text-transform:capitalize;
+    text-align: center;
+}
+@media(min-width:991px){
+    .heading-medium,.heading-red{/*i used it in contact page text. please dont modify*/
+        white-space: nowrap;
+    }
+}
+.heading-red {/*i used it in contact page text. please dont modify*/
+    font-size: 1.6rem;
+    color: var(--main-color);
+    text-transform:capitalize;
+    text-align: center;
+}
+.small-paragraph { /*i used it */
+    font-size: var(--parag-size);
+    color: #000;
+    margin-top: var(--section-margin);
+    margin-bottom: var(--section-margin);
+    font-weight: 200;
+    text-align: justify;
+}
+.medium-paragraph{
+    font-size: var(--parag-size);
+    font-weight:200;
+    text-align: justify;
+    color: #fff;
+}
+.large-paragraph{/*i used it */
+    text-align: justify;
+    font-size: var(--parag-size);
+    line-height: 34px;
+    font-weight:200;
+
+}
+.footer-paragraph {/*i used it */
+    font-size: var(--parag-footer);
+    color: #fff;
+    margin-bottom: var(--parag-margin);
+    text-align: justify;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 7px;
+    text-align: justify;
+    font-family: 'Poppins',sans-serif;
+}
+a{
+    cursor:pointer;
+}
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0!important;
+}
+.btn:focus{
+    box-shadow:none!important;
+}
+h3{
+    font-weight:400;
+}
+.load-more {
+    background-color: var(--main-color);
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+    width: 166px;
+    margin: 30px auto 0;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight:500;
+    padding: 7px 16px;
+    text-align: left;
+}
+.load-more:focus {
+    box-shadow: none !important;
+}
+.load-more svg {
+    color: #fff;
+    margin-left: 13px;
+    font-size: 1.2rem;
+}
+p{
+    hyphens: auto;
+}
+/*================================================Global Settings=End=============================================*/

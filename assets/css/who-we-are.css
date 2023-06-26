@@ -1,0 +1,76 @@
+
+/*=============================================================who we are section============ start========================================================*/
+.who-we-are-content .container.intro-container{
+    max-width: 1516px!important;
+}
+.who-we-are-content  .intro{
+    background-color: var(--dark-color);
+    border-bottom-right-radius: 174px;
+    padding: 23px 40px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 20px;
+}
+@media(max-width:1500px){
+    .who-we-are-content  .intro{
+        padding: 23px 16px!important;
+    }
+}
+.who-we-are-content .intro img{
+    width: 200px;
+}
+/*=============================================================who we are section============ End========================================================*/
+
+/*=============================================================Discover Categories section============ start========================================================*/
+.who-we-are-content .discover-categories{
+    background-color: var(--main-color);
+    padding: 40px 0;
+
+}
+.who-we-are-content .discover-categories h2{
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 60px;
+    font-size: 5rem;
+}
+.who-we-are-content .discover-categories h2.products{
+    white-space: nowrap;
+}
+.who-we-are-content .discover-categories a{
+    display: block;
+
+
+}
+.who-we-are-content .discover-categories a .item-container{
+    background-color: #fff;
+    height: 140px;
+    width: 160px;
+    border-radius: 10px;
+}
+.who-we-are-content .discover-categories a .item-container:after{
+    content: '';
+    width: 2px;
+    height: 50px;
+    position: absolute;
+    background-color: #fff;
+    top: 64px;
+    right: -2px;
+}
+.who-we-are-content .discover-categories .col-md-2:last-child a .item-container:after{
+    background-color: transparent;
+
+}
+.who-we-are-content .discover-categories a h2{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+/*=============================================================Discover Categories section============ End========================================================*/
+.big-sale-section{
+    background-color: transparent!important;
+    margin-bottom: 0!important;
+}
+.big-sale-section a{
+    background-color: var(--main-color)!important;
+    color: #fff!important;
+}

@@ -1,0 +1,79 @@
+.contact-page-content .contact-text-section{
+    margin:0;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+.contact-page-content .contact-text-section h2 {
+    font-size: 2rem;
+    text-transform: none!important;
+    font-weight:400;
+}
+.contact-page-content .contact-text-section h2 span{
+    color: var(--main-color);
+    font-size: 2rem;
+    
+}
+.contact-page-content .contact-text-section a{
+    color: #000;
+    font-size: 1.4rem;
+}
+.contact-page-content .contact-text-section svg{
+    color:var(--main-color);
+    font-size: 1.2rem;
+    margin-right:5px
+}
+
+
+
+/*********========================form section ==============================================****/
+.contact-page-content .form-section{
+    margin-top: 0!important;
+}
+.contact-page-content .form-section .form-wrapper form{
+    width: 80%;
+    margin: auto;
+}
+.contact-page-content .form-section .form-wrapper{
+    background-image: url('../../assets/imgs/contact/form-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 10px;
+
+}
+@media(min-width:991px){
+    .contact-page-content .form-section .form-wrapper{
+        padding: 68px;
+
+    }
+}
+.contact-page-content .form-section .form-control{
+    border-radius: 15px;
+    border:1px solid var(--main-color);
+    margin-bottom: 20px;
+
+}
+.contact-page-content .form-section  button{
+    background-color: var(--main-color);
+    border-radius: 24px;
+    color: #fff;
+    font-size: 1.4rem;
+    display: block;
+    margin-left: auto;
+    padding: 1px 41px;
+}
+@media(max-width:776px){
+    .contact-page-content .form-section  button{
+        margin: auto;
+    }
+}
+.contact-page-content .form-section .map-wrapper{
+    background-image: url('../../assets/imgs/contact/map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+
+
+/*********========================form section ==============================================****/

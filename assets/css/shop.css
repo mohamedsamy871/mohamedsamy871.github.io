@@ -1,0 +1,260 @@
+.shop-page-content  .shop-section{
+    padding-top: 0!important;
+}
+.shop-page-content  .shop-section .filters .breadcrumb{
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding-left: 0;
+    margin-bottom: 0!important;
+}
+@media(min-width:776px) and (max-width:1500px){
+    .shop-page-content  .shop-section .filters.be-fixed{
+        position: fixed;
+        top: 33%;
+        left: 0;
+        z-index: 5;
+    }
+}
+@media(min-width:1500px){
+    .shop-page-content  .shop-section .filters.be-fixed{
+        position: fixed;
+        top: 35%;
+        left: 10%;
+        z-index: 5;
+    }
+}
+.shop-page-content  .shop-section .filters .breadcrumb a:first-child{
+    margin-left: 0;
+}
+.shop-page-content  .shop-section .filters .breadcrumb a{
+     color: #000;
+     font-size: 1.1rem;
+     margin: 0 10px;
+}
+.shop-page-content  .shop-section .filters .breadcrumb a.active{
+    color: var(--main-color);
+}
+.shop-page-content .shop-controls{
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.shop-page-content .shop-controls .icons-container svg{
+    color: #777;
+}
+.shop-page-content .shop-controls .icons-container a.active svg{
+    color: var(--main-color);
+}
+.shop-page-content .shop-controls  .sorting select{
+    border-radius: 15px;
+    padding: 0 34px;
+    line-height: -16px;
+    height: 24px;
+    font-size: 0.9rem;
+}
+.shop-page-content  .shop-section .filters .filter-heading{
+    position: relative;
+}
+.shop-page-content  .shop-section .filters .filter-heading:after{
+    content: '';
+    width: 150px;
+    height: 3px;
+    background-color: #aaaaaa;
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+}
+@media(max-width:991px){
+    .shop-page-content  .shop-section .filters .filter-heading:after{
+        width: 100ffpx;
+
+    }
+}
+.shop-page-content  .shop-section .filters .filter-heading:before{
+    content: '';
+    width: 70px;
+    height: 3px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    z-index: 5;
+}
+
+.shop-page-content  .shop-section .filters form {
+    margin-bottom: 20px;
+}
+.shop-page-content  .shop-section  form input[type=checkbox]{
+    appearance: none!important;
+}
+.shop-page-content  .shop-section  form label{
+    position: relative;
+    font-size: 0.9rem;
+}
+.shop-page-content  .shop-section form label:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: relative;
+    top: 5px;
+    border-radius: 4px;
+    left: -10px;
+    border: 1px solid #777;
+    display: inline-block;
+}
+.shop-page-content  .shop-section form label:hover:before{
+    border: 1px solid var(--main-color);
+
+}
+.shop-page-content  .shop-section  form input[type=checkbox]:checked +label:before{
+    border: 1px solid var(--main-color);
+}
+.shop-page-content  .shop-section  form input[type=checkbox]:checked +label:after{
+    content: '\f00c';
+    font-family: 'fontawesome';
+    color: var(--main-color);
+    top: 4px;
+    left: -7px;
+    position: absolute;
+}
+.shop-page-content .shop-section .filters form button{
+    display: none;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: 500;
+    border-color: none;
+    border-color: var(--main-color);
+}
+@media(max-width:991px){
+    .shop-page-content  .shop-section .filters form button{
+        display: block;
+    }
+}
+/****==============================================owl Carousel ================================Start===========**/
+ .shop-items .grid-view .card{
+    border-radius: 11px;
+    border-color: #000;
+    padding: 0;
+    margin-bottom: 25px;
+    transition: all 0.6s ease-in-out;
+}
+.shop-items .grid-view .card:hover{
+    border-color: var(--main-color);
+    margin-top: 5px;
+    background-color: var(--main-color);
+}
+
+.shop-items .grid-view .card button p,.shop-items .grid-view .card button h5{
+    transition: all 0.5s ease-in-out;
+}
+.shop-items .grid-view .card:hover button p{
+    font-size: 1.2rem;
+    color: var(--main-color);
+    margin-bottom: 0;
+    color: #fff;
+}
+.shop-items .grid-view .card:hover button h5{
+    margin-bottom: 0;
+    color: #fff;
+}
+.card-text{
+    color: var(--main-color);
+    font-size: 14px;
+}
+.card-body{
+    padding:0;
+}
+.card-title{
+    color:#000;
+}
+ .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+    display: block!important;
+
+}
+.owl-nav .owl-next{
+    font-size: 75px!important;
+    color: var(--main-color)!important;
+    position: absolute!important;
+    top: 26%;
+    left: -65px;
+    transform: rotateY(180deg); 
+}
+.owl-nav .owl-prev{
+    font-size: 75px!important;
+    color: var(--main-color)!important;
+    position: absolute!important;
+    top: 26%;
+    right: -28px;
+    transform: rotateY(180deg);
+}
+/****==============================================owl Carousel ================================End===========**/
+/****==============================================special-care ================================Start===========**/
+.special-care{
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 20px 0;
+    padding-top:0;
+}
+.special-care .red-bg{
+    background-color: var(--main-color);
+    width: 90%;
+    position: absolute;
+    top: 30%;
+    right:0;
+    height: 158px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+@media(max-width:991px){
+    .special-care .red-bg{
+        display: none;
+    }
+    .special-care{
+        background-color: var(--main-color);
+    }
+}
+.special-care h2{
+    color: #fff;
+    font-size: 3rem;
+}
+@media(max-width:1450px){
+    .special-care h2{
+        white-space: normal!important;
+        font-size: 4rem!important;
+        line-height: 51px;
+    }
+}
+.special-care img.shoe{
+    filter: drop-shadow(-17px 29px 24px #222);
+    max-height: 220px;
+}
+@media(max-width:991px){
+
+}
+/****=============================================special-care================================End===========**/
+.big-sale-section{
+    margin-bottom: 0!important;
+}
+.modal .modal-footer{
+    border: none!important;
+}
+.shop-section .list-view{
+    display: none;
+}
+.shop-section .list-view button{
+    margin-bottom: 20px;
+    border-radius: 23px;
+}
+@media(max-width:404px){
+    .my-modal-footer .btn-secondary{
+        margin-bottom: 4px;
+    }
+}

@@ -1,0 +1,116 @@
+.about-tamima-content .mission{
+    padding: 30px 0 14px;
+    margin-top: 0;
+}
+.about-tamima-content .mission h2{
+    color: var(--dark-color);
+}
+.about-tamima-content .mission p{
+    color: var(--main-color);
+    line-height: 33px;
+    margin-bottom: 0;
+}
+
+.about-tamima-content .vission{
+    padding: 30px 0 14px;
+    margin-top: 0;
+    background-color: var(--main-color);
+}
+.about-tamima-content .vission h2{
+    color: #fff
+}
+.about-tamima-content .vission p{
+    color: #fff;
+    line-height: 33px;
+    margin-bottom: 0;
+}
+.about-tamima-content .years-of-perfection .heading{
+    background-image: url('../../assets/imgs/branches/heading.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 155px;
+    background-position-x: 50%;
+}   
+.about-tamima-content .years-of-perfection p{
+    line-height: 40px;
+    color: #565656;
+
+}
+.about-tamima-content .carousel-part {
+    background-color: #202227;
+    margin: 50px 0;
+    padding-top: 0;
+    max-height: 207px;
+    overflow: hidden;
+}
+.about-tamima-content .carousel-part a:hover img{
+    border:9px solid var(--main-color);
+}
+.about-tamima-content .our-values h2{ 
+    color: #000;
+}
+.about-tamima-content .our-values p{
+    color: var(--main-color);
+    line-height: 35px;
+}
+.about-tamima-content .our-history{
+    background-image: url('../../assets/imgs/about-tamima/cessors.jpg');
+    background-size: cover;
+    padding: 0;
+}
+.our-history .overlay{
+    background-color: rgb(0 0 0 / 60%);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    padding: 72px 0;
+    
+}
+.about-tamima-content .our-history h2{ 
+    color: #fff;
+    font-size: 6.5rem;
+} 
+.about-tamima-content .our-history h2 img{
+    margin-bottom: 14px;
+}
+.about-tamima-content .our-history p{
+    line-height: 35px;
+}
+/*==============================================subscribe in mailing list============================================start======================*/
+.about-tamima-content .subscribe-mailing{
+    background-color: var(--main-color);
+    padding: 40px 0;
+    margin-top: 0!important;
+}
+.about-tamima-content .subscribe-mailing .heading>h2{
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+.about-tamima-content .subscribe-mailing  form{
+    background-color: rgba(37,37,37,0.7);
+    border-radius: 150px;
+    padding: 32px 50px;
+}
+@media(max-width:576px){
+    .about-tamima-content .subscribe-mailing  form{
+        border-radius: 50px;
+        padding: 30px;
+    }
+}
+.about-tamima-content .subscribe-mailing  form input{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+font-weight: 500;
+}
+.about-tamima-content .subscribe-mailing  form h2{
+    font-family: bebas-middle;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0!important;
+}
+
+/*==============================================subscribe in mailing list============================================End======================*/

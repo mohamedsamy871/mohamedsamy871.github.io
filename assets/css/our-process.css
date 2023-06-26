@@ -1,0 +1,72 @@
+/*======================================intro section ============start=============================*/
+.our-process-page-content .intro{
+    background-image: url('../../assets/imgs/our-process/intro.png');
+    min-height: 470px;
+    background-size: cover;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+
+.our-process-page-content .intro .video-section img{
+    box-shadow: -7px 8px 20px 0px #252525;
+    width: 98%;
+}
+.our-process-page-content .intro .video-section iframe{
+    width: 90%;
+}
+@media(min-width:991px){
+    .our-process-page-content .intro .video-section .col-lg-7{
+        text-align: right;
+    }
+}
+@media(max-width:991px){
+    .our-process-page-content .intro .video-section .col-lg-7{
+        text-align: center;
+    }
+}
+.our-process-page-content .intro .text-container{
+    background-color: #fff;
+    border-top-right-radius: 85px;
+    border-bottom-right-radius: 85px;
+    padding: 30px 100px 20px 30px;
+}
+@media(max-width:991px){
+    .our-process-page-content .intro .text-container{
+        border-top-left-radius: 85px;
+        border-bottom-left-radius: 85px;
+        margin-bottom: 20px;
+        padding: 30px!important;
+    }
+}
+.our-process-page-content .intro .video-section .text-container h2{
+    text-align: center;
+    line-height: 29px;
+}
+.our-process-page-content .intro .video-section .text-container p{
+    color: var(--main-color);
+    font-size: 1.2rem;
+    line-height: 22px;
+    margin-top: 0;
+    text-align: center;
+}
+/*======================================intro section ============End=============================*/
+/*======================================follow-us section ============start=============================*/
+.follow-us {
+    padding: 50px 0 55px;
+}
+.follow-us .text-title h2{
+    color: var(--dark-color);
+}
+.follow-us .text-title p{
+    color: var(--dark-color);
+}
+.follow-us  .phone-shape a{
+    background-color:var(--main-color);
+    color: #fff;
+    font-size: 2.5rem;
+}
+/*======================================follow-us section ============End=============================*/
+.subscribe{
+    padding-top: 0!important;
+}

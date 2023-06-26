@@ -1,0 +1,169 @@
+.best-sellers-section{
+    margin-top: 0!important;
+}
+/*******************=======================best-seller-items=============Sart==========================================*/
+.best-sellers-page-content .best-seller-items{
+    margin-top: var(--section-margin);
+    margin-bottom: var(--section-margin);
+}
+.best-sellers-page-content .best-seller-items .card{
+    border-radius: 24px;
+    border-color: var(--main-color);
+    max-width: 90%;
+    margin: auto;  
+    margin-bottom: 25px;
+    border-radius: 11px;
+    padding: 0;
+    margin-bottom: 25px;
+    transition: all 0.5s ease-in-out;
+}
+.best-sellers-page-content .best-seller-items .card:hover{
+    border-color: var(--dark-color);
+    margin-top: 5px;
+    background-color: var(--main-color);
+}
+.best-sellers-page-content .best-seller-items .card-text p{
+    color: var(--main-color);
+    font-size: 14px;
+}
+.best-sellers-page-content .best-seller-items .card:hover p{
+    font-size: 1.2rem;
+    color: var(--main-color);
+    margin-bottom: 0;
+    color: #fff;
+}
+.best-sellers-page-content .best-seller-items .card-title{
+    color:#000;
+}
+.card button p,.shop-items .grid-view .card button h5{
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover button h5{
+    margin-bottom: 0;
+    color: #FFF;
+}
+.card-text{
+    color: var(--main-color);
+    font-size: 14px;
+}
+.card-body{
+    padding:0;
+}
+/*******************=======================best-seller-items==================================================================End==========================================*/
+/*=========================================================================================================================================================================*/
+/*******************=======================visit-tamima========================================================================Sart==========================================*/
+@media(min-width:1500px){
+    .best-sellers-page-content .visit-tamima{
+        margin-top: 145px!important;
+    }
+}
+.best-sellers-page-content .visit-tamima .wrapper{
+    background-color: var(--main-color);
+    padding: 40px 0;
+    position: relative;
+    padding-top: 10rem;
+}
+.best-sellers-page-content .visit-tamima  .check-this{
+    background-color: var(--dark-color);
+    padding: 29px 23px 28px 20px;
+}
+.first-row-sm-screen>.col-12>.check-this{
+    padding: 20px 50px!important;
+}
+.best-sellers-page-content .visit-tamima  .check-this::before{
+    content: 'new!';
+    width: 192px;
+    height: 92px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    position: absolute;
+    right: -126px;
+    top: 51px;
+    color: #fff;
+    font-size: 2rem;
+    transform: rotate(-90deg);
+    background-color: var(--main-color);
+    text-transform: capitalize;
+    padding: 0px 67px;
+    box-shadow: -3px -1px 18px 0px #393333;
+}
+.best-sellers-page-content .visit-tamima  .check-this::after{
+    content: '';
+    top: 45px;
+    right: -264px;
+    position: absolute;
+    background-image: url(../../assets/imgs/best-sellers/handle.png);
+    width: 201px;
+    background-size: contain;
+    height: 193px;
+    background-repeat: no-repeat;
+}
+.first-row-sm-screen{
+    display: none;
+}
+@media(max-width:1495px){
+    .check-this::after,
+    .check-this::before{
+        display: none;
+
+    }
+    .best-sellers-page-content .visit-tamima .wrapper{
+        padding-top: 40px!important;
+    }
+    .first-row
+    {
+        display: none;
+    }
+    .first-row-sm-screen{
+        display: block;
+    }
+}
+.best-sellers-page-content .visit-tamima  .check-this h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    line-height: 46px;
+}
+.best-sellers-page-content .visit-tamima .check-this a{
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 47px;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+.best-sellers-page-content .visit-tamima .wrapper .tamima-location{
+    width: 75%;
+    padding: 1px 50px 20px 20px;
+    margin-left: auto;
+    margin-top: 62px;
+}
+.best-sellers-page-content .visit-tamima .wrapper .tamima-location h2{
+    white-space: nowrap;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+}
+.best-sellers-page-content .visit-tamima .wrapper .tamima-location a p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 31px;
+    margin-bottom: 0;
+    text-align: left;
+    max-width: 324px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************=======================visit-tamima==============================================================================End==========================================*/

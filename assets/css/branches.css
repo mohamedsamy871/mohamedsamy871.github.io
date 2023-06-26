@@ -1,0 +1,122 @@
+.branches{
+    margin-top: 0;
+}
+.branches-page-content  a{
+    color: #606060;
+    font-size: 0.8rem
+}
+.branches-page-content svg{
+    color:var(--main-color);
+    font-size: 1rem;
+    margin-right:4px
+}
+.branches>.container>h2{
+    text-transform: none!important;
+}
+/*==============================Branches Section============================================================start=========================*/
+.branches-page-content .branches .branch-wrapper{
+    border: 1px solid var(--main-color);
+    border-radius: 88px;
+}
+.branches-page-content .branches .branch-wrapper .col-7{
+    padding: 15px 14px 4px;
+}
+.branches-page-content .branches .branch-wrapper .heading-red{
+    text-align: left;
+}
+.branches-page-content .branches .branch-wrapper .branch-image{
+    border-top-left-radius: 83px;
+    border-bottom-left-radius: 83px;
+    width: 100%;
+    background-position: -2px;
+    background-size: cover;
+    height: 100%;
+}
+.branches-page-content .branches .col-lg-4{
+margin-bottom: 30px;
+}
+@media(max-width:776px){
+    .branches-page-content .branches .branch-wrapper{
+        max-width:350px ;
+        margin: auto;
+    }
+}
+.branches-page-content .branches .branch-wrapper h2{
+    margin-bottom: 0!important;
+    line-height: 30px;
+    font-size: 1.1rem;
+}
+.branches-page-content .branches .branch-wrapper .branch-contact-items li{
+        line-height: 16px;
+        margin-top: 5px;
+}
+.branches-page-content .branches .branch-wrapper .branch-contact-items a p{
+font-size: 0.7rem;
+}
+.branches-page-content .branches .branch-wrapper .telnumber span{
+    font-size: 1.3rem;
+    color: #999;
+}
+.branches-page-content .branches .branch-wrapper .branch-contact-items li a.location-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.branches-page-content .branches .branch-wrapper .branch-contact-items li a.location-item svg ,
+.branches-page-content .branches .branch-wrapper .branch-contact-items li a.location-item span{
+    display: block;
+    font-size: 0.7rem;
+}
+.branches-page-content .branches .branch-wrapper .branch-contact-items li a.location-item svg{
+    font-size: 1rem;
+}
+/*==============================Branches Section============================================================end=========================*/
+/*==============================Form Section============================================================Start=========================*/
+
+.branches-page-content .form-section{
+    background-image: url('../../assets/imgs/branches/form-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+.branches-page-content .form-section h2{
+    color: #fff;
+    text-transform: none!important;
+}
+.branches-page-content .form-section h2 span{
+    color:var(--main-color)
+}
+
+.branches-page-content .form-section form input,.branches-page-content .form-section form textarea{
+ background-color: rgba(227, 227, 227, 0.7);
+ border-radius: 0;
+ margin-bottom: 20px;
+ border-color: transparent;
+}
+.branches-page-content .form-section form textarea{
+    padding: 0.7rem 0.75rem!important;
+}
+.branches-page-content .form-section form  button{
+    display: block;
+    margin-left: auto;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight:200;
+    text-transform: lowercase;
+    border-radius: 0;
+    margin-top: 20px;
+}
+.branches-page-content .years-of-perfection .heading{
+    background-image: url('../../assets/imgs/branches/heading.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 155px;
+    background-position-x: 50%;
+}   
+.branches-page-content .years-of-perfection p{
+    line-height: 40px;
+    font-weight:200;
+    color: #565656;
+
+}
